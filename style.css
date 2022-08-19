@@ -1,0 +1,97 @@
+main {
+    
+}
+
+.container {
+    padding: 150px 200px;
+    background: radial-gradient(
+         rgb(2, 6, 56) 15%,
+         rgb(7, 106, 172) 65%,
+         #eee);
+    position: relative;
+}
+
+.elemento {
+    margin: 0 auto;
+    background: radial-gradient(#eee, rgb(12, 82, 211));
+    color: #fff;
+    width: 400px;
+    height: 600px;
+    position: relative;
+    border-radius: 30px;
+    border: 20px solid #000;
+    border-style:double;
+}
+
+h1 {
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.867);
+    position: absolute;
+    margin: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixaInputs {
+    margin: 0 auto;
+    padding: 18% 0;
+    width: 300px;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.inputValores {
+    margin: 25px 0;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border: 5px solid #000;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buttonCalc {
+    margin: 25px 0;
+    width: 300px;
+    height: 50px;
+    background: #0202;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    transition: all, 0.3s
+}
+
+.buttonCalc:hover{
+    background: rgba(160, 160, 156, 0.867);
+    transform: scale(1.2);
+}
+
+.buttonCalc:active{
+    background: rgba(37, 37, 133, 0.867);
+    transform: scale(1.09)
+}
+
+h2 {
+    margin: 0;
+    color: rgba(255, 230, 0, 0.867);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;   
+}
+
+h3 {
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.867);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
