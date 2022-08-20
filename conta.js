@@ -25,6 +25,4 @@ calculador.addEventListener("click", function() {
 
 });
 
-//calculador.onclick = document.location.replace; 
-
 console.log(porcentagem);

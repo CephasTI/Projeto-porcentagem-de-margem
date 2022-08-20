@@ -3,20 +3,30 @@ main {
 }
 
 .container {
-    padding: 150px 200px;
+    padding: 0 auto;
+    height: 750px;
     background: radial-gradient(
          rgb(2, 6, 56) 15%,
          rgb(7, 106, 172) 65%,
          #eee);
     position: relative;
+    padding-top: 20px;
+}
+
+.titulo {
+    font-family: 'Press Start 2P', cursive;
+    color: rgba(248, 255, 26, 0.87);
+    text-align: center;
+    font-size: 19px;
+
 }
 
 .elemento {
-    margin: 0 auto;
+    margin: 10px auto;
     background: radial-gradient(#eee, rgb(12, 82, 211));
     color: #fff;
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 550px;
     position: relative;
     border-radius: 30px;
     border: 20px solid #000;
@@ -24,7 +34,7 @@ main {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 27px;
     text-transform: uppercase;
     text-align: center;
     color: rgba(0, 0, 0, 0.867);
@@ -92,7 +102,7 @@ h3 {
     color: rgba(2, 1, 1, 0.867);
     font-family: 'Press Start 2P', cursive;
     text-align: center;
-    font-size: 28.8px;
+    font-size: 27px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -102,7 +112,8 @@ p {
     color: rgba(190, 215, 17, 0.87);
     font-family: 'Press Start 2P', cursive;
     text-align: center;
-    font-size: 70px;
+    font-size: 65px;
     font-weight: bold;
     text-transform: uppercase;
 }
+
