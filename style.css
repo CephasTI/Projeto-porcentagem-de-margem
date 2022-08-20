@@ -24,36 +24,36 @@ main {
 }
 
 h1 {
-    font-size: 23px;
+    font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    color: rgba(255, 255, 255, 0.867);
-    position: absolute;
-    margin: 30px;
+    color: rgba(0, 0, 0, 0.867);
+    position: relative;
+    margin-top: 40px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .caixaInputs {
     margin: 0 auto;
-    padding: 18% 0;
+    padding: 0 0 18% 0;
     width: 300px;
     height: 100%;
     border-radius: 5px;
     border: none;
     position: relative;
-    box-sizing: border-box;
 }
 
 .inputValores {
-    margin: 25px 0;
+    margin-top: 30px;
     width: 300px;
-    height: 50px;
+    height: 60px;
     border-radius: 20px;
     border: 5px solid #000;
     position: relative;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .buttonCalc {
@@ -66,7 +66,7 @@ h1 {
     position: relative;
     font-size: 20px;
     text-align: center;
-    transition: all, 0.3s
+    transition: all, 0.3s;
 }
 
 .buttonCalc:hover{
@@ -81,17 +81,27 @@ h1 {
 
 h2 {
     margin: 0;
-    color: rgba(255, 230, 0, 0.867);
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(248, 255, 26, 0.87);
+    font-family: 'Press Start 2P', cursive;
     font-weight: bold;   
 }
 
 h3 {
     margin: 20px;
-    color: rgba(255, 255, 255, 0.867);
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(2, 1, 1, 0.867);
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
-    font-size: 30px;
+    font-size: 28.8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 20px auto;
+    color: rgba(190, 215, 17, 0.87);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 70px;
     font-weight: bold;
     text-transform: uppercase;
 }

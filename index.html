@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,300&family=Press+Start+2P&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,27 +14,25 @@
 <body>
 
 <main>
-
     <div class="container">
         <section class="elemento">
 
-            <h1>calcular porcentagem de margem</h1>
+            <h1>calculadora</h1>
             <div class="caixaInputs">
                 
-                <input type="text" class="inputValores" placeholder="Valor da compra">
+                <input type="number" class="inputValores" id="valor" placeholder="Valor da compra">
 
-                <input type="text" class="inputValores" placeholder="Valor de venda">
+                <input type="number" class="inputValores" id="venda" placeholder="Valor de venda">
                 
-                <button type="submit" class="buttonCalc"><h2>CALCULAR</h2></button>
-            
-                <h3>valor final é:</h3>
+                <button type="button" class="buttonCalc" id="calculador"><h2>CALCULAR</a></h2></button>
 
+                <h3>você tem:</h3>
+                <p><script src="conta.js"></script></p>
+                <h3>de lucro!</h3>
             </div>
 
         </section>
-
     </div>
-
 </main>
 
 </body>
