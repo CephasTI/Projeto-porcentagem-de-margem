@@ -9,20 +9,43 @@ let quantVenda = venda.value;
 let lucro = quantVenda - quantValor;
 let porcentagem = Math.round(lucro / quantValor * 100);
 
+function apagaValores(){
+    quantValor = 0;
+    quantVenda = 0;
+    lucro = 0;
+    porcentagem = 0;
+}
+
+function recalcular(){
+    quantValor = valor.value;
+    quantVenda = venda.value;
+
+    lucro = quantVenda - quantValor;
+    porcentagem = Math.round(lucro / quantValor * 100);
+}
+
 function mostrar(mostra){
     document.write(mostra)
 }
 
-if(isNaN(porcentagem)) {
-    mostrar(0 + "%");
+if(isNaN(porcentagem) || porcentagem === 0 || porcentagem === -Infinity || porcentagem === Infinity) {
+    document.getElementById("valor-porcentagem").innerHTML = `<p>${0 + "%"}</p>`;
 }else{
-    mostrar(porcentagem + "%")
+    document.getElementById("valor-porcentagem").innerHTML = `<p>${porcentagem + "%"}</p>`;
 }
 
 calculador.addEventListener("click", function() {
     
-    location.reload();
-
+    recalcular();
+    
+    if(isNaN(porcentagem) || porcentagem === 0 || porcentagem === -Infinity || porcentagem === Infinity) {
+        document.getElementById("valor-porcentagem").innerHTML = `<p>${0 + "%"}</p>`;
+    }else{
+        document.getElementById("valor-porcentagem").innerHTML = `<p>${porcentagem + "%"}</p>`;
+    }
+    
+    apagaValores();
+    
 });
 
 console.log(porcentagem);
