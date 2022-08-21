@@ -17,32 +17,33 @@ main {
 
 .titulo {
     font-family: 'Press Start 2P', cursive;
-    color: rgba(153, 9, 9, 0.87);
+    color: rgba(181, 62, 4, 0.87);
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     position: relative;
     padding-bottom: 20px;
-
+    text-transform: uppercase;
 }
 
 .elemento {
     margin: 10px auto;
-    background: radial-gradient(#eee, rgb(12, 82, 211));
+    background: radial-gradient(#eee, rgb(230, 175, 10, 0.77));
     color: #fff;
     width: 350px;
     height: 550px;
     position: relative;
     border-radius: 30px;
-    border: 20px solid #000;
+    border: 20px solid rgba(159, 54, 22);
     border-style:double;
+    box-shadow: inset 0 0 5em black, 0 0 2em black;
 }
 
 h1 {
     font-size: 27px;
     text-transform: uppercase;
     text-align: center;
-    color: rgba(0, 0, 0, 0.867);
+    color: rgba(56, 162, 227);
     position: relative;
     margin-top: 40px;
     font-weight: bold;
@@ -53,7 +54,7 @@ h1 {
     margin: 0 auto;
     padding: 0 0 18% 0;
     width: 300px;
-    height: 100%;
+    height: 90%;
     border-radius: 5px;
     border: none;
     position: relative;
@@ -75,7 +76,7 @@ h1 {
     margin: 25px 0;
     width: 300px;
     height: 50px;
-    background: #0202;
+    background: rgba(0, 34, 0, 0.219);
     border-radius: 20px;
     border: none;
     position: relative;
@@ -85,25 +86,30 @@ h1 {
 }
 
 .buttonCalc:hover{
-    background: rgba(160, 160, 156, 0.867);
+    background: rgba(209, 209, 184, 0.705);
     transform: scale(1.1);
 }
 
 .buttonCalc:active{
-    background: rgba(37, 37, 133, 0.867);
+    background: rgba(167, 55, 11, 0.87);
     transform: scale(1)
 }
 
 h2 {
     text-align: center;
     margin: 0;
-    color: rgba(248, 255, 26, 0.87);
+    color: rgba(167, 55, 11, 0.87);
     font-family: 'Press Start 2P', cursive;
-    font-weight: bold;   
+    font-weight: bold; 
+    transition: all, 0.3s;
+}
+
+.buttonCalc:active h2{
+    color: white;
 }
 
 h3 {
-    margin: 20px;
+    margin: 10px;
     color: rgba(2, 1, 1, 0.867);
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -114,7 +120,7 @@ h3 {
 
 p {
     margin: 20px auto;
-    color: rgba(190, 215, 17, 0.87);
+    color: rgba(11, 119, 185);
     font-family: 'Press Start 2P', cursive;
     text-align: center;
     font-size: 65px;
@@ -122,3 +128,25 @@ p {
     text-transform: uppercase;
 }
 
+.tamanho-img {
+    max-width:150px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    position: static;
+}
+
+img {
+    max-width:150px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    margin: 20px 20px 0 20px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
