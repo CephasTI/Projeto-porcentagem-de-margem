@@ -1,3 +1,15 @@
+function apenasNumeros(evt) {
+    var theEvent = evt || window.event;
+    var key = theEvent.keyCode || theEvent.which;
+    key = String.fromCharCode( key );
+    //var regex = /^[0-9.,]+$/;
+    var regex = /^[0-9.]+$/;
+    if( !regex.test(key) ) {
+       theEvent.returnValue = false;
+       if(theEvent.preventDefault) theEvent.preventDefault();
+    }
+}
+
 let calculador = document.querySelector("#calculador");
 let valor = document.querySelector("#valor");
 let venda = document.querySelector("#venda");
