@@ -8,10 +8,27 @@
 
 https://margem.netlify.app
 
-Aplicação full stack web e mobile criado com intuito de facilitar calculos de porcentagem de margem.
+Com uma interface diferenciada e entretida, a aplicação full stack web e mobile foi criada com intuito de facilitar calculos de porcentagem de margem. 
 
 Com sistema feito em direção a resultado de calculos dificeis, o Projeto Porcentagem de Margem foi criado para comerciantes que desejam realizar calculos rapidos e sem dificuldade garantindo mobilidade e poupar tempo na hora de montar preços.
 
 ## Layout Mobile
 
-![Mobile 1]! ()
+![Mobile 1](https://github.com/CephasTI/Projeto-porcentagem-de-margem/blob/main/assets/mobile1.PNG)
+![Mobile 2](https://github.com/CephasTI/Projeto-porcentagem-de-margem/blob/main/assets/mobile2.PNG)
+
+## Layout Web
+
+![web 1](https://github.com/CephasTI/Projeto-porcentagem-de-margem/blob/main/assets/web1.PNG)
+![web 2](https://github.com/CephasTI/Projeto-porcentagem-de-margem/blob/main/assets/web2.PNG)
+
+# Tecnologias ultilizadas
+## Back end
+- Java Script
+## Front end
+- HTML / CSS / JS
+
+# Autor
+Pedro Rodrigues de Oliveira
+
+https://www.linkedin.com/in/pedro-rodrigues-de-oliveira-819088231/
